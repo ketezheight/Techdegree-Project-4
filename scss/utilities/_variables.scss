@@ -1,7 +1,22 @@
+// Base
+
 $white: #fff;
 $color-text: #777;
 $color-primary: #58e1c1;
 $color-secondary: #51ddfc;
 $color-shade: #ccc;
+
+$color-success: #63cc82;
+$color-error: #e4757a;
+$color-warning: #fd7856;
+$color-info: #927bc1;
+
+$color-secondary-light: lighten($color-secondary, 15%);
+$color-success-light: lighten($color-success, 15%);
+$color-error-light: lighten($color-error, 15%);
+$color-warning-light: lighten($color-warning, 15%);
+$color-info-light: lighten($color-info, 15%);
+
+// Media Queries
 
 $break-lg: 768px;
